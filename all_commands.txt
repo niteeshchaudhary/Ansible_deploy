@@ -1,0 +1,1000 @@
+ 1013  python -m venv venv
+ 1014  source venv/bin/activate
+ 1015  ppip install -r requirements.txt
+ 1016  pip install -r requirements.txt
+ 1017  cat ~/.ssh/id_rsa.pub
+ 1018  ssh -J guest@146.152.232.8 ubuntu@100.81.184.15
+ 1019  ssh-keygen -t rsa -b 4096 -f $env:UserProfile\.ssh\id_hack
+ 1020  cat ~/.ssh/id_hack.pub
+ 1021  ls ~/.ssh/
+ 1022  ls ~/.ssh
+ 1023  lspci | grep -i vga
+ 1024  nvidia-smi
+ 1025  sudo apt install nvidia-utils-470 
+ 1026  nvidia-smi
+ 1027  PYTHON --VERSION
+ 1028  PYTHON -V
+ 1029  python -v
+ 1030  pip --version
+ 1031  lspci | grep -i vga
+ 1032  sudo lshw -C display
+ 1033  /bin/python3 /home/nkc/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/nkc/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+ 1034  streamlit run main.py
+ 1035  python -m venv venv
+ 1036  source ./venv/bin/activate
+ 1037  pip install gTTS moviepy diffusers
+ 1038  pip install torch torchvision
+ 1039  pip install diffusers["torch"] transformers
+ 1040  pip install accelerate
+ 1041  pip install git+https://github.com/huggingface/diffusers
+ 1042  pip install --upgrade transformers
+ 1043  pip install intel_extension_for_pytorch
+ 1044  pip install streamlit
+ 1045  streamlit run main.py
+ 1046  pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+ 1047  streamlit run main.py
+ 1048  chmod +x /home/nkc/Downloads/NVIDIA-Linux-x86_64-550.67.run 
+ 1049  /home/nkc/Downloads/NVIDIA-Linux-x86_64-550.67.run 
+ 1050  sudo /home/nkc/Downloads/NVIDIA-Linux-x86_64-550.67.run 
+ 1051  source venv/bin/activate
+ 1052  pip install torch==2.2.0
+ 1053  pip install torch==2.2.2
+ 1054  streamlit run main.py
+ 1055  /bin/python3 /home/nkc/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/nkc/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+ 1056  streamlit run main.py
+ 1057  source venv/bin/activate
+ 1058  streamlit run main.py
+ 1059  source venv/bin/activate
+ 1060  streamlit run main.py
+ 1061  git add mmain
+ 1062  git add main
+ 1063  git status
+ 1064  /bin/python3 /home/nkc/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/nkc/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+ 1065  find model
+ 1066  ls
+ 1067  fsck /dev/sda1
+ 1068  sudo fsck /dev/sda1
+ 1069  systemctl --user start docker-desktop
+ 1070  docker pull ubuntu
+ 1071  sudo snap install docker
+ 1072  docker pull ubuntu
+ 1073  sudo docker pull ubuntu
+ 1074  docker run -it ubuntu
+ 1075  sudo docker run -it ubuntu
+ 1076  sudo apt-get update
+ 1077  sudo ap update
+ 1078  sudo apt update
+ 1079  sudo apt upgrade
+ 1080  sudo apt update
+ 1081  sudo apt-key adv --refresh-keys --keyserver keyserver.ubuntu.com
+ 1082  sudo nano /etc/apt/sources.list
+ 1083  deb https://apt.releases.hashicorp.com jammy main
+ 1084  sudo nano /etc/apt/sources.list.d/
+ 1085  sudo nano /etc/apt/sources.list.
+ 1086  sudo nano /etc/apt/sources.list
+ 1087  sudo apt update
+ 1088  sudo apt install gpg
+ 1089  wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+ 1090  gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
+ 1091  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+ 1092  sudo apt update
+ 1093  sudo apt upgrade
+ 1094  sudo apt install docker
+ 1095  sudo apt install gnome-terminal
+ 1096  sudo apt-get update
+ 1097  sudo apt-get install '/home/nkc/Downloads/docker-desktop-4.29.0-amd64.deb' 
+ 1098  sudo apt install docker-ce-cli
+ 1099  sudo apt install -y ca-certificates curl gnupg lsb-release
+ 1100  sudo mkdir -p /etc/apt/keyrings
+ 1101  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+ 1102  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1103  sudo apt update -y
+ 1104  sudo apt-get install '/home/nkc/Downloads/docker-desktop-4.29.0-amd64.deb' 
+ 1105  gpg --generate-key
+ 1106  pass init A442CD765431CE16911F0684F8243D6D56F89FD5
+ 1107  docker pull molly/privateimage
+ 1108  sudo docker pull molly/privateimage
+ 1109  curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+ 1110  sudo dpkg -i cloudflared.deb
+ 1111  ps cax | grep 7314
+ 1112  kill 7314
+ 1113  kill -9 7314
+ 1114  sudo su
+ 1115  curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb &&  sudo dpkg -i cloudflared.deb &&  sudo cloudflared service install eyJhIjoiNzQ0M2Y3YjYxYmI2YmVjZDE3NzAxOTEzNzNlM2I0YTAiLCJ0IjoiYWFlNzhkN2ItZTI4Mi00NjhjLWJlMWMtYWQwMmQwNzgzMzhlIiwicyI6IlpHSTFObUkxTUdJdFl6VXdOUzAwTWpJeUxUbGlZekF0TldaaE5ERTRPRFkzWm1JMiJ9
+ 1116  ps -a |grep 7314
+ 1117  ps -a 
+ 1118  ps
+ 1119  curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb &&  sudo dpkg -i cloudflared.deb &&  sudo cloudflared service install eyJhIjoiNzQ0M2Y3YjYxYmI2YmVjZDE3NzAxOTEzNzNlM2I0YTAiLCJ0IjoiYWFlNzhkN2ItZTI4Mi00NjhjLWJlMWMtYWQwMmQwNzgzMzhlIiwicyI6IlpHSTFObUkxTUdJdFl6VXdOUzAwTWpJeUxUbGlZekF0TldaaE5ERTRPRFkzWm1JMiJ9
+ 1120  ps
+ 1121  sudo su
+ 1122  gedit abc
+ 1123  ssh nkc@ssh.nkc.buzz
+ 1124  ssh nkc@ssh.nkc.buzz -p nkc
+ 1125  ssh nkc@ssh.nkc.buzz
+ 1126  sudo apt update
+ 1127  sudo apt upgrade
+ 1128  type _init_completion
+ 1129  exit
+ 1130  tmux
+ 1131  sudo apt install tmux
+ 1132  tmux
+ 1133  exit
+ 1134  tmux ls
+ 1135  tmux attach -t 0
+ 1136  tmux
+ 1137  ls
+ 1138  tmux ls
+ 1139  tmux attach -t 0
+ 1140  choco install -y openlens
+ 1141  curl -fsSL https://downloads.k8slens.dev/keys/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/lens-archive-keyring.gpg > /dev/null
+ 1142  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/lens-archive-keyring.gpg] https://downloads.k8slens.dev/apt/debian stable main" | sudo tee /etc/apt/sources.list.d/lens.list > /dev/null
+ 1143  sudo apt update && sudo apt install lens
+ 1144  docker version
+ 1145  base point
+ 1146  uname -r
+ 1147  kubectl
+ 1148  kubectl get ns
+ 1149  docker ps
+ 1150  sudo su
+ 1151  docker ps
+ 1152  kubectl
+ 1153  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+ 1154  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+ 1155  echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+ 1156  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+ 1157  docker
+ 1158  kubectl version --client
+ 1159  kubectl cluster-info
+ 1160  apt-get install bash-completion
+ 1161  sodo apt-get install bash-completion
+ 1162  sudo apt-get install bash-completion
+ 1163  source /usr/share/bash-completion/bash_completion
+ 1164  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+ 1165  sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+ 1166  minikube start
+ 1167  minikube logs --file=logs.txt
+ 1168  cat logs.txt
+ 1169  minikube start
+ 1170  minikube start 
+ 1171  cd /home/nkc/.docker/contexts/meta/
+ 1172  ls
+ 1173  cp fe9c6bd7a66301f49ca9b6a70b217107cd1284598bfc254700c989b916da791e
+ 1174  cp fe9c6bd7a66301f49ca9b6a70b217107cd1284598bfc254700c989b916da791e abc
+ 1175  cp -r fe9c6bd7a66301f49ca9b6a70b217107cd1284598bfc254700c989b916da791e abc
+ 1176  mv abc 37a8eec1ce19687d132fe29051dca629d164e2c4958ba141d5f4133a33f0688f
+ 1177  minikube start
+ 1178  minikube -ps
+ 1179  minikube status
+ 1180  kubectl cluster-info | grep 'Kubernetes master' | awk '/http/ {print $NF}'
+ 1181  kubectl config view
+ 1182  Dminikube stop
+ 1183  minikube stop
+ 1184  minikube delete
+ 1185  minikube start
+ 1186  sudo su
+ 1187  minikube stop
+ 1188  docker ps
+ 1189  docker ps -a
+ 1190  docker kill eb427f2fe491
+ 1191  dockerstop eb427f2fe491
+ 1192  docker stop eb427f2fe491
+ 1193  docker ps -a
+ 1194  docke image prune
+ 1195  docker image prune
+ 1196  docker ps -a
+ 1197  minikube start
+ 1198  kubectl get pods -A
+ 1199  cat /etc/group
+ 1200  cat /etc/group|grep kubctl
+ 1201  cat /etc/group|grep kubectl
+ 1202  cat /etc/group|grep kub
+ 1203  cat /etc/group | grep kub
+ 1204  cat /etc/group | grep kb
+ 1205  cat /etc/group | grep nk
+ 1206  kubectl exec
+ 1207  minikube delete
+ 1208  sudo minikube start
+ 1209  minikube start
+ 1210  docker pull kafka:3.7.0
+ 1211  dpkg -l | grep -i docker
+ 1212  docker pull kafka:3.7.0
+ 1213  docker login
+ 1214  gpg --generate-key
+ 1215  pass init rsa3072 2024-05-16 [SC] [expires: 2026-05-16]dodm
+ 1216  docker pull kafka:3.7.0
+ 1217  docker login
+ 1218  mi
+ 1219  mf
+ 1220  f
+ 1221  docker login
+ 1222  redis-server -nlp|grep 63
+ 1223  redis-server -nlp| grep 63
+ 1224  netstat -nlp| grep 63
+ 1225  minikube start
+ 1226  minikube logs --file=logs.tx
+ 1227  vim logs.txt
+ 1228  nano logs.txt
+ 1229  tail logs.txt
+ 1230  cat /etc/group | grep kube
+ 1231  cat /etc/group | grep mini
+ 1232  cat /etc/group
+ 1233  sudo minikube start
+ 1234  minikube start driver=docker
+ 1235  redis -version
+ 1236  redis version
+ 1237  sudo apt install redis
+ 1238  redis -version
+ 1239  redis
+ 1240  redis ping
+ 1241  redis
+ 1242  sudo apt install redis-server
+ 1243  redis
+ 1244  redis-server
+ 1245  redis-server ping
+ 1246  netstat -nlp | greap 6379
+ 1247  netstat -nlp | grep 6379
+ 1248  netstat -p | grep 6379
+ 1249  netstat -n | grep 6379
+ 1250  netstat -l | grep 6379
+ 1251  netstat -np | grep 6379
+ 1252  netstat -nlp | grep 6379
+ 1253  ps -a
+ 1254  netstat -nlp
+ 1255  netstat -tuln | grep <port_number>
+ 1256  netstat -tuln | 63
+ 1257  netstat -tuln | grep 63
+ 1258  netstat -tuln | grep 6379
+ 1259  redis-server
+ 1260  redis-server version
+ 1261  redis-server -version
+ 1262  redis-cli
+ 1263  apt install redis stack
+ 1264  sudo apt install redis stack
+ 1265  sudo apt install redis-stack
+ 1266  curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+ 1267  sudo chmod 644 /usr/share/keyrings/redis-archive-keyring.gpg
+ 1268  echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
+ 1269  sudo apt-get update
+ 1270  sudo apt-get install redis-stack-server
+ 1271  docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-management
+ 1272  docker run --help
+ 1273  docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.13-management
+ 1274  dockewr -ps
+ 1275  docker -ps
+ 1276  docker pull kafka:3.7.0
+ 1277  docker login
+ 1278  sudo docker login
+ 1279  minikube start
+ 1280  minikube logs
+ 1281  minikube ip
+ 1282  kubectl get nodes
+ 1283  minikube srart --nodes 2 -p my-first --driver=docker
+ 1284  minikube start --nodes 2 -p my-first --driver=docker
+ 1285  docker ps
+ 1286  docker start
+ 1287  docker ps
+ 1288  systemctl start docker
+ 1289  dockerd
+ 1290  sudo services --status-all
+ 1291  sudo service --status-all
+ 1292  sudo service docker start 
+ 1293  sudo snap status docker 
+ 1294  sudo snap start docker 
+ 1295  sudo service --status-all
+ 1296  docker ps
+ 1297  sudo snap start docker 
+ 1298  sudo snap stop docker 
+ 1299  sudo snap uninstall docker 
+ 1300  sudo snap remove docker 
+ 1301  dpkg -l | grep -i docker
+ 1302  sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli docker-compose-plugin
+ 1303  sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce docker-compose-plugin
+ 1304  sudo rm -rf /var/lib/docker /etc/docker
+ 1305  sudo rm /etc/apparmor.d/docker
+ 1306  sudo groupdel docker
+ 1307  sudo rm -rf /var/run/docker.sock
+ 1308  sudo rm -rf /var/lib/containerd
+ 1309  sudo rm -r ~/.docker
+ 1310  sudo apt-get purge -y docker.io docker-doc podman-docker docker-compose docker-compose-v2
+ 1311  for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+ 1312  # Add Docker's official GPG key:
+ 1313  sudo apt-get update
+ 1314  sudo apt-get install ca-certificates curl
+ 1315  sudo install -m 0755 -d /etc/apt/keyrings
+ 1316  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+ 1317  sudo chmod a+r /etc/apt/keyrings/docker.asc
+ 1318  # Add the repository to Apt sources:
+ 1319  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+ 1320    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1321  sudo apt-get update
+ 1322  # Add Docker's official GPG key:
+ 1323  sudo apt-get update
+ 1324  sudo apt-get install ca-certificates curl
+ 1325  sudo install -m 0755 -d /etc/apt/keyrings
+ 1326  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+ 1327  sudo chmod a+r /etc/apt/keyrings/docker.asc
+ 1328  # Add the repository to Apt sources:
+ 1329  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+ 1330    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1331  sudo apt-get update
+ 1332  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+ 1333  sudo docker run hello-world
+ 1334  docker ps
+ 1335  sudo docker ps
+ 1336  cat /etc/group
+ 1337  cat /etc/group | grep dock
+ 1338  sudo usermod -aG docker nkc
+ 1339  docker ps
+ 1340  minikube start --node 2 -p myy-first --driver=docker
+ 1341  minikube start -node 2 -p myy-first --driver=docker
+ 1342  minikube start --nodes 2 -p myy-first --driver=docker
+ 1343  minikube status
+ 1344  minikuube status -p myy-first
+ 1345  minikube status -p myy-first
+ 1346  kubectl get nodes
+ 1347  npm start
+ 1348  sudo apt install postgresql
+ 1349  curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
+ 1350  sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+ 1351  sudo apt install pgadmin4
+ 1352  sudo apt install pgadmin4-web 
+ 1353  sudo /usr/pgadmin4/bin/setup-web.sh
+ 1354  sudo -u postgres psql
+ 1355  git clone git@github.com:niteeshchaudhary/stockprediction.git
+ 1356  ls
+ 1357  ls -a
+ 1358  cd 
+ 1359  ls
+ 1360  ls -a
+ 1361  cd .sshh
+ 1362  cd .ssh
+ 1363  ls
+ 1364  cat id_rsa.pub
+ 1365  git clone git@github.com:niteeshchaudhary/stockprediction.git
+ 1366  cd stockprediction/
+ 1367  ls
+ 1368  python -m venv .venv
+ 1369  rm -r .venv
+ 1370  ls -a
+ 1371  cd backend
+ 1372  ls
+ 1373  python -m venv .venv
+ 1374  source .venv/bin/activate
+ 1375  git add .
+ 1376  git commit -m "corrected requirements"
+ 1377  git status
+ 1378  git ..
+ 1379  git addd ..
+ 1380  git add ..
+ 1381  git status
+ 1382  git commit -m "added to gitignore"
+ 1383  git status
+ 1384  git revert
+ 1385  git push
+ 1386  pip install -r requirements.txt
+ 1387  python server.py
+ 1388  pip install -r requirements.txt
+ 1389  python server.py
+ 1390  pip install scikit-learn
+ 1391  pip install -r requirements.txt
+ 1392  python server.py
+ 1393  pip install keras
+ 1394  pip install tensorflow
+ 1395  python server.py
+ 1396  pip install --upgrade watchdog
+ 1397  python server.py
+ 1398  cd ..
+ 1399  cd frontend
+ 1400  ls
+ 1401  npm i
+ 1402  npm i --force
+ 1403  npm start
+ 1404  exit
+ 1405  tmux
+ 1406  sudo apt update
+ 1407  sudo apt upgrade
+ 1408  source .venv/bin/activate
+ 1409  python -m venv .venv
+ 1410  source .venv/bin/activate
+ 1411  pip install -r requirements.txt
+ 1412  python server.py
+ 1413  python trial.py
+ 1414  python server.py
+ 1415  python trial.py
+ 1416  python server.py
+ 1417  /bin/python3 /home/nkc/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/printEnvVariablesToFile.py /home/nkc/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/deactivate/bash/envVars.txt
+ 1418  npm start
+ 1419  code .
+ 1420  cd ..
+ 1421  code .
+ 1422  npm start
+ 1423  code .
+ 1424  ifconfig
+ 1425  docker-compose logs backend
+ 1426  docker build -t my-stockpredictorapp .
+ 1427  docker run -p 5000:5000 my-stockpredictorapp
+ 1428  cd backend
+ 1429  python wsgi.py
+ 1430  docker build -t my-stockpredictorapp .
+ 1431  docker run -p 5000:5000 my-stockpredictorapp
+ 1432  docker ps
+ 1433  minikube stop
+ 1434  docker ps
+ 1435  docker stop 8712348f0ae9
+ 1436  docker stop 744d6bf72085
+ 1437  docker ps
+ 1438  docker run -p 5000:5000 my-stockpredictorapp
+ 1439  docker ps
+ 1440  cd ..
+ 1441  docker build -t my-stockpredictorapp .
+ 1442  docker run -p 5000:5000 my-stockpredictorapp
+ 1443  [200~docker-compose up --build
+ 1444  ~docker-compose up --build
+ 1445  docker-compose up --build
+ 1446  sudo apt  install docker-compose
+ 1447  docker-compose up --build
+ 1448  docker-compose down
+ 1449  python backend/wsgi.py
+ 1450  cd backend
+ 1451  python backend/wsgi.py
+ 1452  python wsgi.py
+ 1453  cd ..
+ 1454  docker ps
+ 1455  docker-compose down
+ 1456  docker-compose up --build
+ 1457  docker-compose down
+ 1458  docker-compose up --build
+ 1459  docker-compose down
+ 1460  docker-compose up --build
+ 1461  docker-compose down
+ 1462  docker-compose up --build
+ 1463  docker-compose down
+ 1464  docker-compose up --build
+ 1465  docker-compose down
+ 1466  docker-compose up --build
+ 1467  docker-compose down
+ 1468  docker-compose up --build
+ 1469  docker-compose down
+ 1470  docker-compose logs backend
+ 1471  curl -x GET "http:\\backend:5000
+ 1472  curl -x GET "http:\\backend:5000"
+ 1473  docker-compose logs frontend
+ 1474  docker-compose exec frontend sh
+ 1475  clear
+ 1476  cd frontend
+ 1477  npm start
+ 1478  warp-cli connect
+ 1479  warp-cli status
+ 1480  warp-cli register
+ 1481  warp-cli status
+ 1482  warp-cli disconnect
+ 1483  warp-cli connect
+ 1484  warp-cli disconnect
+ 1485  git clone git@github.com:niteeshchaudhary/DevOps.git
+ 1486  cd devOps
+ 1487  cd DevOps
+ 1488  mkdir docker_exmp
+ 1489  cd docker_exmp
+ 1490  npm create vite@latest
+ 1491  cd dockerDemo
+ 1492  npm i
+ 1493  code .
+ 1494  ifconfig
+ 1495  cd ..
+ 1496  cd dockerreact
+ 1497  docker exec dockerrreactbuild
+ 1498  docker exec --help
+ 1499  docker exec -w dockerrreactbuild
+ 1500  docker exec -it dockerrreactbuild /bin/bash
+ 1501  docker exec -it dockerreactbuild /bin/bash
+ 1502  docker ps
+ 1503  docker exec -it cf059efa3f2f /bin/bash
+ 1504  docker exec -it cf059efa3f2f /app
+ 1505  docker exec -it cf0
+ 1506  docker exec -it cf059efa3f2f /bin/bash
+ 1507  docker exec -it dockerreactbuild peaceful_torvalds
+ 1508  docker ps
+ 1509  docker exec -it nostalgic_thrp /bin/bash
+ 1510  docker exec -it nostalgic_tharp /bin/bash
+ 1511  docker exec -it nostalgic_tharp /bin/sh
+ 1512  docker build -t reactdemo .
+ 1513  docker run -p 3000:3000 reactdemo
+ 1514  npm run dev
+ 1515  docker run -p 5173:3000 reactdemo
+ 1516  docker build -t reactdemo .
+ 1517  docker run -p 5173:3000 reactdemo
+ 1518  docker build -t reactdemonginx .
+ 1519  docker run -p 80:3000 reactdemonginx
+ 1520  docker run -p 80:3001 reactdemonginx
+ 1521  docker build -t reactdemonginx .
+ 1522  docker run -p 3000:3000 reactdemonginx
+ 1523  docker build -t reactvitedemo .
+ 1524  docker run -p 3000:3000 reactvitedemo
+ 1525  npm run build
+ 1526  npm run dev
+ 1527  serve
+ 1528  npm install -s serve
+ 1529  serve -s build
+ 1530  npm serve -s build
+ 1531  npm install -g serve
+ 1532  serve -s build
+ 1533  serve -s dist
+ 1534  docker build -t reactvitedemo .
+ 1535  docker run -p 3000:3000 reactvitedemo
+ 1536  docker build -t reactvitedemorunning .
+ 1537  docker run -p 3000:3000 reactvitedemorunning
+ 1538  docker build -t reactvitedemorunning .
+ 1539  docker run  reactvitedemorunning
+ 1540  docker run -p 5173:5173 reactvitedemorunning
+ 1541  docker run -p 5173:3000 reactvitedemorunning
+ 1542  docker build -t reactvitedemorunning .
+ 1543  docker run -p 5173:3000 reactvitedemorunning
+ 1544  npm run dev --host
+ 1545  npm run dev --host 3000
+ 1546  npm run dev --host - 3000
+ 1547  npm run dev --host 5173
+ 1548  npm run dev --host
+ 1549  docker ps 
+ 1550  docker ps -a
+ 1551  docker run -p 3000:3000 reactvitedemo
+ 1552  cd ..
+ 1553  npx create-react-app dockerreact
+ 1554  cd dockerreact
+ 1555  ls
+ 1556  nono Dockerfile
+ 1557  gedit Dockerfile
+ 1558  nano Dockerfile
+ 1559  docker build -t dockerreact .
+ 1560  docker run -p 3000:3000 dockerreact
+ 1561  docker run  dockerreact
+ 1562  mv Dockerfile dcf
+ 1563  nano Dockerfile
+ 1564  docker build -t dockerreactbuild .
+ 1565  nano Dockerfile
+ 1566  docker build -t dockerreactbuild .
+ 1567  docker run dockerreactbuild
+ 1568  docker-compose exec frontend sh
+ 1569  docker-compose backend logs
+ 1570  docker-compose logs backend
+ 1571  docker-compose exec frontend sh
+ 1572  docker-compose up
+ 1573  docker-compose down
+ 1574  docker-compose up --build
+ 1575  docker-compose down
+ 1576  docker-compose up --build
+ 1577  docker-compose down
+ 1578  docker ps
+ 1579  docker ps -a
+ 1580  docker images -a
+ 1581  docker image prune
+ 1582  docker system prune -a
+ 1583  docker rmi $(docker images -q)
+ 1584  docker rmi -f $(docker images -q)
+ 1585  docker images -a
+ 1586  docker ps -a
+ 1587  docker-compose ps
+ 1588  docker-compose ps -a
+ 1589  docker-compose images -a
+ 1590  ifconfig
+ 1591  sudo apt update
+ 1592  sudo apt upgrade
+ 1593  sudo dpkg --purge --force-all virtualbox-(version)
+ 1594  sudo dpkg --purge --force-all virtualbox
+ 1595  sudo dpkg --purge --force-all virtualbox-7.0
+ 1596  sudo apt install virtualbox
+ 1597  sudo modprobe vboxdrv
+ 1598  sudo apt-get remove virtualbox-dkms
+ 1599  sudo apt-get install virtualbox-dkms
+ 1600  sudo modprobe vboxdrv
+ 1601  sudo apt-get purge virtualbox-*
+ 1602  sudo apt-get install dkms
+ 1603  sudo /etc/init.d/vboxdrv setup
+ 1604  sudo apt-get install virtualbox-dkms
+ 1605  apt install virtualbox-ext-pack
+ 1606  sudo apt install virtualbox-ext-pack
+ 1607  sudo /sbin/vboxconfig
+ 1608  sudo apt install gcc make perl
+ 1609  sudo modprobe vboxdrv
+ 1610  sudo apt-get install mokutil
+ 1611  openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=VirtualBox/"
+ 1612  sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vboxdrv)
+ 1613  sudo mokutil --import MOK.der
+ 1614  sudo modprobe vboxdrv
+ 1615  vmstat
+ 1616  cmstat
+ 1617  vmstat
+ 1618  htop
+ 1619  top
+ 1620  ifconfig
+ 1621  psl
+ 1622  vmstat
+ 1623  netstat
+ 1624  ping 10.1.116.192
+ 1625  ssh nkc@10.1.116.192
+ 1626  ps
+ 1627  ps -a
+ 1628  ifconfig
+ 1629  ssh nkc@192.168.1.68
+ 1630  exit
+ 1631  ssh nkc@192.168.1.71
+ 1632  exit
+ 1633  tmux
+ 1634  ifconfig
+ 1635  tmux
+ 1636  tmux ls
+ 1637  ls
+ 1638  vmstata
+ 1639  vmstat
+ 1640  ssh nkc@nkcserv1
+ 1641  ssh-keygen -t ed25519 -C "ensi deafult"
+ 1642  ls -la .ssh
+ 1643  tmux
+ 1644  tmux ls
+ 1645  tmux
+ 1646  exit
+ 1647  ifconfig
+ 1648  tmux
+ 1649  tmux ls
+ 1650  tmux
+ 1651  tmux -t attach -1
+ 1652  tmux -t attach 1
+ 1653  tmux attach -t 1
+ 1654  tmux ls
+ 1655  tmux -t 0
+ 1656  tmux attach -t 0
+ 1657  ssh nkc@nkcserv2
+ 1658  cls
+ 1659  ssh nkc@nkcserv3
+ 1660  ssh nkcserv3
+ 1661  ls -la .ssh
+ 1662  ssh-copy-id -i ~/.ssh/id_ed25519.pub nkcserv1
+ 1663  prfix s
+ 1664  prefix s
+ 1665  clear
+ 1666  ssh-copy-id-i ~/.ssh/id_ed25519.pub nkcserv2
+ 1667  ssh-copy-id -i ~/.ssh/id_ed25519.pub nkcserv2
+ 1668  ssh-copy-id -i ~/.ssh/id_ed25519.pub nkcserv3
+ 1669  shh-copy-id -i ~/.ssh/id_eb25519.pub nkcserv3
+ 1670  ssh-copy-id -i ~/.ssh/id_eb25519.pub nkcserv3
+ 1671  ssh-copy-id -i ~/.ssh/id_ed25519.pub nkcserv3
+ 1672  clear
+ 1673  ssh nkcserv1
+ 1674  ssh nkcserv3
+ 1675  clear
+ 1676  ssh-keygen -t ed25519 -C "ansible
+ 1677  "
+ 1678  clear
+ 1679  ssh-copy-id -i ~/.ssh/ansible nkcserv1
+ 1680  ssh-copy-id -i ~/.ssh/ansible nkcserv3
+ 1681  ssh nkcserv1
+ 1682  ssh -i .ssh/ansible nkcserver1
+ 1683  ssh -i .ssh/ansible nkc@nkcserver1
+ 1684  ssh -i ~/.ssh/ansible nkc@nkcserver1
+ 1685  ssh -i ~/.ssh/ansible nkc@nkcserv1
+ 1686  ssh-keygen
+ 1687  ssh-copy-id -i ~/.ssh/ansibrsa.pub nkcserv1
+ 1688  ls -la .ssh/ansible
+ 1689  ls -la .ssh
+ 1690  ssh-keygen -C ansibrsa
+ 1691  ls
+ 1692  mv ansibrsa .ssh/ansibrsa
+ 1693  mv ansibrsa .ssh/ansibrsa.pub
+ 1694  mv ansibrsa.pub .ssh/ansibrsa.pub
+ 1695  ls
+ 1696  ssh-copy-id -i ~/.ssh/ansibrsa.pub nkcserv1
+ 1697  ssh-copy-id -i ~/.ssh/ansibrsa.pub nkcserv3
+ 1698  cat .ssh/ansibrsa.pub
+ 1699  git clone git@github.com:niteeshchaudhary/Ansible_deploy.git
+ 1700  ls
+ 1701  cd ansible_deploy
+ 1702  cd Ansible_deploy
+ 1703  ls
+ 1704  git config
+ 1705  git add .
+ 1706  git push
+ 1707  cat ~/.gitconfig
+ 1708  ls
+ 1709  nano README.md
+ 1710  git add .
+ 1711  git status
+ 1712  git commint -m "checking"
+ 1713  git commit -m "checking"
+ 1714  git status
+ 1715  git push
+ 1716  tmux ls
+ 1717  systemctl start wlan
+ 1718  systemctl start wlan0
+ 1719  cat /proc/version
+ 1720  git clone https://github.com/cilynx/rtl88x2bu.git
+ 1721  cd rtl88x2bu
+ 1722  VER=$(sed -n 's/\PACKAGE_VERSION="\(.*\)"/\1/p' dkms.conf)
+ 1723  sudo rsync -rvhP ./ /usr/src/rtl88x2bu-${VER}
+ 1724  sudo dkms add -m rtl88x2bu -v ${VER}
+ 1725  sudo dkms build -m rtl88x2bu -v ${VER}
+ 1726  sudo dkms install -m rtl88x2bu -v ${VER}
+ 1727  sudo modprobe 88x2bu
+ 1728  lsmod
+ 1729  lsmod | grep 88x2
+ 1730  ifconfig
+ 1731  tmux
+ 1732  tmux -s l2
+ 1733  tmux
+ 1734  tmux ls
+ 1735  tmux
+ 1736  tmux attach -t 1
+ 1737  tmux attach -t 2
+ 1738  ipconfig
+ 1739  ifconfig
+ 1740  exit
+ 1741  ssh nkc@serv1
+ 1742  ssh nkc@nkcserv1
+ 1743  ssh 192.168.182.254
+ 1744  ssh 192.168.182.235
+ 1745  ssh 192.168.182.236
+ 1746  ssh 192.168.182.237
+ 1747  ssh 192.168.182.238
+ 1748  ssh 192.168.182.91
+ 1749  ssh nkc@liveserv2
+ 1750  ssh nkc@livserv2
+ 1751  ssh nkc@nkcserv2
+ 1752  ssh nkc@nkcserv1
+ 1753  ssh nkc@nkcserv3
+ 1754  ssh nkc@nkcserv1
+ 1755  ssh nkc@192.182.1.27
+ 1756  ssh nkc@192.162.1.27
+ 1757  ssh nkc@192.168.182.27
+ 1758  ssh nkc@nkcserv2
+ 1759  ssh nkc@nkcserv3
+ 1760  ssh nkc@serv3
+ 1761  ssh nkc@nkcserv3
+ 1762  ssh nkc@nkcserv1
+ 1763  tmux attach -t 0
+ 1764  tmux ls
+ 1765  tmux kill 1
+ 1766  tmux kill-session 1
+ 1767  tmux kill -t 1
+ 1768  tmux kill-session -t 1
+ 1769  tmux kill-session -t 2
+ 1770  clear
+ 1771  where git
+ 1772  shich git
+ 1773  which git
+ 1774  ls
+ 1775  cd documents
+ 1776  git clone git@github.com:niteeshchaudhary/Ansible_deploy.git
+ 1777  cd Ansible_deploy
+ 1778  clear
+ 1779  ls
+ 1780  clear
+ 1781  git ~/.gitconfig
+ 1782  cat ~/.gitconfig
+ 1783  nano README.md
+ 1784  git status
+ 1785  git add README.md
+ 1786  git status
+ 1787  git push
+ 1788  git commit -m "checking ansible working"
+ 1789  git push
+ 1790  clear
+ 1791  nano inventory
+ 1792  git status
+ 1793  git add inventory
+ 1794  git commit -m "adding inventory"
+ 1795  git push
+ 1796  ls -ls ~/.ssh
+ 1797  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1798  sudo apt update
+ 1799  clear
+ 1800  sudo apt install ansible
+ 1801  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1802  nano inventory
+ 1803  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1804  cat ~/.ssh/ansib.pub
+ 1805  cat ~/.ssh/ansible.pub
+ 1806  ls ~/.ssh/
+ 1807  ansible all --key-file ~/.ssh/ansibrsa -i inventory -m ping
+ 1808  clear
+ 1809  ls
+ 1810  ansible all --key-file ~/.ssh/ansibrsa -i inventory -m ping
+ 1811  clear
+ 1812  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1813  sudo apt install python3
+ 1814  clear
+ 1815  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1816  /usr/bin/python3
+ 1817  which python
+ 1818  which python3
+ 1819  sudo apt install ansible
+ 1820  clear
+ 1821  pip install ansible
+ 1822  clear
+ 1823  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1824  ls -l /path/to/ansible/files
+ 1825  cat etc/ansible/ansible.cfg
+ 1826  cat /etc/ansible/ansible.cfg
+ 1827  ls /etc/ansible/
+ 1828  ls /etc
+ 1829  cat ~/.ansible.cfg
+ 1830  python3 -m pi install six
+ 1831  python3 -m pip install six
+ 1832  sudo apt purge ansible
+ 1833  sudo apt install ansible
+ 1834  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1835  nkc@nkcserv2
+ 1836  nkc@nkcserv3
+ 1837  ssh nkc@nkcserv3
+ 1838  ssh nkc@serv1
+ 1839  ssh nkc@nkcserv1
+ 1840  python /home/nkc/.ansible/tmp/ansible-tmp-1718217596.8637214-25626-1515610745326/AnsiballZ_ping.py
+ 1841  cd Ansible_deploy/
+ 1842  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1843  ansible all --key-file ~/.ssh/ansirsa -i inventory -m ping
+ 1844  locale
+ 1845  export LC_ALL="en_US.UTF-8"
+ 1846  export LANG="en_US.UTF-8"
+ 1847  export LC_ALL="en_US.UTF-8"
+ 1848  locale
+ 1849  ansible all --key-file ~/.ssh/ansirsa -i inventory -m ping
+ 1850  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1851  nano inventory
+ 1852  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1853  nano inventory
+ 1854  ansible all --key-file ~/.ssh/ansible -i inventory ping
+ 1855  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+ 1856  clear
+ 1857  nano ansible.cfg
+ 1858  ls /etc/ansible
+ 1859  ls /etc/
+ 1860  clear
+ 1861  ls
+ 1862  ansible -ll -m ping
+ 1863  ansible all -m ping
+ 1864  clear
+ 1865  ansible all -m ping
+ 1866  ansible --list-hosts
+ 1867  ansible all --list-hosts
+ 1868  ansible all -m gather_facts
+ 1869  git statue
+ 1870  git status
+ 1871  git add .
+ 1872  git status
+ 1873  git commit -m "default config"
+ 1874  git push
+ 1875  clear
+ 1876  ansible all -m apt
+ 1877  c
+ 1878  ansible all -m apt -a update_cache=true
+ 1879  ansible all -m apt -a update_cache=true --become --ask-become-pass
+ 1880  ansible all -m apt -a name=vim-nox --become --ask-become-pass
+ 1881  ansible all -m apt -a name=tmux --become --ask-become-pass
+ 1882  sudo apt dist-upgrade
+ 1883  ansible all -m apt -a name=snapd --become --ask-become-pass
+ 1884  ansible all -m apt -a "name=snapd state=latest" --become --ask-become-pass
+ 1885  ansible all -m apt -a "name=libtiff6 state=latest" --become --ask-become-pass
+ 1886  ansible all -m apt -a "upgrade=dist" --become --ask-become-pass
+ 1887  clear
+ 1888  nano install_apache.yml
+ 1889  ansible-playbook --ask-become-pass install_apache.yml'
+ 1890  ansible-playbook --ask-become-pass install_apache.yml
+ 1891  nano install_apache.yml
+ 1892  ansible-playbook --ask-become-pass install_apache.yml
+ 1893  nano install_apache.yml
+ 1894  ansible-playbook --ask-become-pass install_apache.yml
+ 1895  ifconfig
+ 1896  ansible-playbook --ask-become-pass install_apache.yml
+ 1897  nano install_apache.yml
+ 1898  ansible-playbook --ask-become-pass install_apache.yml
+ 1899  nano install_apache.yml
+ 1900  ansible-playbook --ask-become-pass install_apache.yml
+ 1901  cp install_apache.yml remove_apache.yml
+ 1902  ls
+ 1903  nano remove_apache.yml
+ 1904  ansible-playbook --ask-become-pass remove_apache.yml
+ 1905  nano remove_apache.yml
+ 1906  ansible-playbook --ask-become-pass remove_apache.yml
+ 1907  ansible-playbook --ask-become-pass install_apache.yml
+ 1908  git add .
+ 1909  sit sutaus
+ 1910  sit status
+ 1911  git status
+ 1912  git commit -m "added install/remove playbook
+ 1913  "
+ 1914  git push
+ 1915  poweroff
+ 1916  sudp poweroff
+ 1917  sudo poweroff
+ 1918  ps
+ 1919  ps -ef
+ 1920  ps -ef|grep box
+ 1921  sudo poweroff
+ 1922  sudo fdisk
+ 1923  fdisk --help
+ 1924  sudo fdisk -l
+ 1925  lsblk
+ 1926  sudo parted -l
+ 1927  fsck /dev/sdc
+ 1928  sudo fsck /dev/sdc
+ 1929  e2fsck -b 8193 /dev/sdc
+ 1930  sudo apt-get install ntfs-3g
+ 1931  sudo ntfsfix /dev/sdc
+ 1932  sudo chkdsk /dev/sdc
+ 1933  ls
+ 1934  cd Ansible_deploy
+ 1935  ls
+ 1936  mkdir playbooks
+ 1937  cd playbooks
+ 1938  ls
+ 1939  touch my_first.yml
+ 1940  git add .
+ 1941  git commit -m "getting started"
+ 1942  git push
+ 1943  ls'
+ 1944  ;
+ 1945  V
+ 1946  x
+ 1947  !!:s^c
+ 1948  ;
+ 1949  ls
+ 1950  cd documents
+ 1951  cd Documents
+ 1952  ls
+ 1953  cd GitHub
+ 1954  ls
+ 1955  cd Leetcode_90days/
+ 1956  clear
+ 1957  ls
+ 1958  nano 231.cpp
+ 1959  gcc 231.cpp
+ 1960  nano 231.cpp
+ 1961  gcc 231.cpp
+ 1962  git add .
+ 1963  git commit -m "231.cpp"
+ 1964  git push
+ 1965  cd ..
+ 1966  ls
+ 1967  git add .
+ 1968  git commit -m "739"
+ 1969  clear
+ 1970  clear
+ 1971  ssh nkc@nkcserv3
+ 1972  ssh nkc@nkcserv1
+ 1973  -+7089
+ 1974  clear
+ 1975  ls
+ 1976  cd Ansible_deploy/
+ 1977  git pull
+ 1978  clear
+ 1979  ls
+ 1980  ansible-playbook --ask-become-pass install_apache.yml
+ 1981  sudo locale-gen en_US.UTF-8
+ 1982  ansible-playbook --ask-become-pass install_apache.yml
+ 1983  sudo update-locale LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8
+ 1984  ansible-playbook --ask-become-pass install_apache.yml
+ 1985  export LC_ALL=en_US.UTF-8
+ 1986  export LANG=en_US.UTF-8
+ 1987  export LANGUAGE=en_US.UTF-8
+ 1988  ansible-playbook --ask-become-pass install_apache.yml
+ 1989  clear
+ 1990  ls -la .ssh 
+ 1991  ssh-copy-id -i ansible.pub nkcserv1
+ 1992  ssh-copy-id -i ~/.ssh/ansible.pub nkcserv1
+ 1993  ssh-copy-id -i ~/.ssh/ansible.pub 192.168.1.57
+ 1994  ssh-copy-id -i ~/.ssh/ansible.pub 192.168.1.58
+ 1995  ls -la .ssh 
+ 1996  ssh-copy-id -i ~/.ssh/ansibrsa.pub 192.168.1.58
+ 1997  ssh-copy-id -i ~/.ssh/ansibrsa.pub 192.168.1.57
+ 1998  ls -la .ssh 
+ 1999  ssh-copy-id -i ~/.ssh/id_ed25519.pub 192.168.1.57
+ 2000  ssh-copy-id -i ~/.ssh/id_ed25519.pub 192.168.1.58
+ 2001  nano ~/.ssh/known_hosts
+ 2002  nano ~/.ssh/known_hosts.old
+ 2003  tmux
+ 2004  clear
+ 2005  cd Ansible_deploy/
+ 2006  ls
+ 2007  nano inventory
+ 2008  ansible-playbook --ask-become-pass install_apache.yml
+ 2009  install_apache_when.yml
+ 2010  nano install_apache_when.yml
+ 2011  history
+ 2012  history >> all_commands.txt
